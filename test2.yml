@@ -1,0 +1,43 @@
+__current: '2020-04-22T11:32:21.687173'  # current version
+__type: # base64 if value are base64
+'2020-04-22T11:31:08.562962': {}
+'2020-04-22T11:31:11.787198':  # Overridden
+  nginx:
+    htpasswd:
+      username: test_user
+      password: _s:password
+    server_certificate:
+      pem: _s:certs/cert_pem
+      key: _s:certs/cert_key
+      der_data: _s:certs/cert_der
+'2020-04-22T11:31:40.241429':
+  nginx:
+    htpasswd:
+      username: gchiesa2
+      password: _s:password
+    server_certificate:
+      pem: _s:certs/cert_pem
+      key: _s:certs/cert_key
+      der_data: _s:certs/cert_der
+'2020-04-22T11:32:21.687173':
+  nginx:
+    htpasswd:
+      username: gchiesa2
+      password: _s:password
+    server_certificate:
+      pem: _s:certs/cert_pem
+      key: _s:certs/cert_key
+      der_data: _s:certs/cert_der
+  nginx2:
+    htpasswd:
+      username: nginx2
+'2020-04-22T11:33:29.432528':
+  nginx:
+    htpasswd:
+    server_certificate:
+      pem: _s:certs/cert_pem
+      key: _s:certs/cert_key
+      der_data: _s:certs/cert_der
+  nginx2:
+    htpasswd:
+      username: nginx2

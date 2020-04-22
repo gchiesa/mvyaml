@@ -1,0 +1,9 @@
+---
+nginx:
+    htpasswd:
+        username: "test_user"
+        password: _s:password
+    server_certificate:
+        pem: _s:certs/cert_pem
+        key: _s:certs/cert_key
+        der_data: _s:certs/cert_der
